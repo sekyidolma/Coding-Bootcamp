@@ -5,7 +5,7 @@ public class isPalindrome {
 		if(nums==null || nums.length<2)
 			return true;
 		
-		for(int i =0; i <nums.length; i++) {
+		for(int i =0; i <nums.length/2; i++) {
 			if(nums[i]  != nums[nums.length-1]) {
 				return false;
 			}
